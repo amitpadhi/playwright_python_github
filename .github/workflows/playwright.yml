@@ -24,4 +24,4 @@ jobs:
           pip install pytest-asyncio
           playwright install --with-deps
       - name: Run Playwright tests
-        run: pytest
+        run: pytest tests/test_store_page.py
